@@ -2,7 +2,7 @@
  * Created by: Logan Cantin
  * Created on: 04-Feb-2019
  * Created for: ICS4U
- * Day #3 (Logging Company)
+ * Day #4 (Logging Company)
  * This program calculates the number of logs that can fit in a logging truck.
  */
 
