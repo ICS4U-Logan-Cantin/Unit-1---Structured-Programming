@@ -31,8 +31,16 @@ public class EinsteinsEquation {
         return String.format("%.3fe%d", coeff, exp);
     }
 
-    private static Long numKilotonBombs(Double joules){
-        return (long) Math.round(joules / J_PER_KILOTON_BOMB);
+    private static String numKilotonBombs(Double joules){
+
+        double KTBombs = joules / J_PER_KILOTON_BOMB;
+
+        if (joules > 1000){
+            return doubleToScientific(joules);
+        }
+        else {
+            return Double.toString(KTBombs);
+        }
     }
 
     public static void main(String[] args) {
@@ -44,7 +52,7 @@ public class EinsteinsEquation {
         if (mass >= 0){
             Double energy = EnergyCalculator(mass);
             System.out.printf("The amount of energy released is %sJ.", doubleToScientific(energy));
-            System.out.printf("The number of kiloton bombs this is equal to is %d.", numKilotonBombs(energy));
+            System.out.printf("The number of kiloton bombs this is equal to is %s.", numKilotonBombs(energy));
         }
     }
 }
