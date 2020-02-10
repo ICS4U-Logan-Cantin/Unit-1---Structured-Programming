@@ -85,7 +85,7 @@ public class EinsteinsEquation {
             Double mass = getMass();
 
             // Checking for a positive mass value
-            if (mass >= 0) {
+            if (mass >= 0.) {
                 Double energy = EnergyCalculator(mass);
                 System.out.printf("The amount of energy released is %sJ.%n", doubleToScientific(energy));
                 System.out.printf("The number of kiloton bombs this is equal to is %s.%n", numKilotonBombs(energy));
