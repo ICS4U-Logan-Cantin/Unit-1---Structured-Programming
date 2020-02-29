@@ -1,3 +1,11 @@
+/*
+ * Created by: Logan Cantin
+ * Created on: 29-Feb-20120
+ * Created for: ICS4U
+ * Day #14 (Planet Enumeration)
+ * This program tells you which planet number you are going to.
+*/
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
