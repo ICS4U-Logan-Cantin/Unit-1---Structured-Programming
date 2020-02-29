@@ -1,3 +1,11 @@
+/*
+ * Created by: Logan Cantin
+ * Created on: 29-Feb-20120
+ * Created for: ICS4U
+ * Day #9 (Roll Dice)
+ * This program generates a random number between 1 and n.
+*/
+
 import java.util.Scanner;
 import java.util.Random;
 
