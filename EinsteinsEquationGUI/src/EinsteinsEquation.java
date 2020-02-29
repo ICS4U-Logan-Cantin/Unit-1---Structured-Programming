@@ -1,3 +1,11 @@
+/*
+ * Created by: Logan Cantin
+ * Created on: 29-Feb-20120
+ * Created for: ICS4U
+ * Day #5 (Einstein's Equation GUI)
+ * This program calculates the amount of energy released by matter. GUI interface included.
+*/
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
