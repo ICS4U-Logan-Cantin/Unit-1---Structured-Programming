@@ -1,3 +1,11 @@
+/*
+ * Created by: Logan Cantin
+ * Created on: 29-Feb-20120
+ * Created for: ICS4U
+ * Day #6 (Simple Calculator)
+ * This program is a simple GUI calculator.
+*/
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
