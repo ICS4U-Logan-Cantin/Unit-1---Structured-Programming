@@ -1,3 +1,11 @@
+/*
+ * Created by: Logan Cantin
+ * Created on: 29-Feb-20120
+ * Created for: ICS4U
+ * Day #7 (Microwave)
+ * This program calculates the amount of time it takes to microwave food.
+*/
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
