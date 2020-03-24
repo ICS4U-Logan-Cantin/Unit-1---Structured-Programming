@@ -1,3 +1,8 @@
+// Logan Cantin
+// For Ms Raffin
+// March 23, 2020
+// This program calculates the height of a board for it to be equal to one board foot, given the width and length.
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
